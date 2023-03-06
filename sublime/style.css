@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+.Home{
+	overflow: hidden;
+	background: #333;
+}
+.Home a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 20px 20px 15px 15px;
+	text-decoration: none;
+	width: 200px;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: 0.5s ease;
+
+}
+.Home a:hover{
+	color: #000;
+	background: #ddd;
+}
+.search{
+	float: right;
+	padding: 20px ;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 60px;
+	padding: 10px`20px;
+}
+.search input{
+	background: transparent;
+	flex: 1;
+	border: 0;
+	outline: none;
+     font-weight: bold;
+	font-size: 20px;
+	color: #cac7ff;
+	font-family: sans-serif;
+}
+
+
+
+
+
